@@ -1,0 +1,22 @@
+id: 887f1a9e-9c21-410e-b948-754770bc71b3
+timestamp: 2023-11-15T13:25:49.506Z
+source: TAP-GUI
+username: mpluya
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
+options:
+  bsGitBranch: main
+  projectName: java-demo-aks
+  buildTool: maven
+  springBootVersion: 3.1
+  nativeBuild: false
+  javaVersion: 17
+  includeBuildToolWrapper: true
+  includeDevContainer: true
+  bsGitRepository: github.com?owner=Mpluya&repo=java-demo-aks
